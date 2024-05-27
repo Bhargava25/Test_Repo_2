@@ -1,4 +1,4 @@
-function Setup-Env {
+function clearSetup-Env {
     Write-Host "Running pre-build init"
 }
 
