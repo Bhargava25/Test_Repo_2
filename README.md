@@ -21,5 +21,6 @@ Definition of success: A user should be able to do the following:
 
    Below is the image results the above task that has been completed successfully.
 
-   ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/80e7d0de-31a6-44eb-850b-2c31f23d1972)
+   ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/71955cdd-a3a4-463f-8b8d-844879d44f4e)
+
 
