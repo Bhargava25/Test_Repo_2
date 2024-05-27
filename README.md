@@ -18,3 +18,8 @@ Definition of success: A user should be able to do the following:
 4.	Once the ps1 script is loaded, Run the command Setup-Env to which the response will be “Running     pre-build init” .
 5.	Run the command Build-Proj to which the response will be “Building Project”
 6.	Run the command Release-Build to which the response will be ““Deploying Artifacts
+
+   Below is the image results the above task that has been completed successfully.
+
+   ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/80e7d0de-31a6-44eb-850b-2c31f23d1972)
+
