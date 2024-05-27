@@ -31,10 +31,6 @@ b.	A build task - this will call `./init.ps1` and then call the Build-Proj comma
 2.	A Test-Repo-Release pipeline that needs to be triggered manually. This pipeline will have a build stage and a deploy stage. The build stage will be the same as above. The deploy stage will have one task, which will call `./init.ps1` and then call the Release-Build command. 
 Set up, on ADO, these two pipelines under the pipelines tab so that they can be run as needed. 
 
-
-2.	A Test-Repo-Release pipeline that needs to be triggered manually. This pipeline will have a build stage and a deploy stage. The build stage will be the same as above. The deploy stage will have one task, which will call `./init.ps1` and then call the Release-Build command. 
-Set up, on ADO, these two pipelines under the pipelines tab so that they can be run as needed. 
-
 On the same repo, set up your local laptop as an agent inside an agent pool named “Test-Repo-Agent-Pool” and make the necessary settings so that both the Test-Repo-CI and Test-Repo-Release pipelines use that agent to run the pipeline.
 
 Definition of success: A user should be able to do the following:
