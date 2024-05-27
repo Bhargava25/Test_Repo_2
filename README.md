@@ -21,8 +21,8 @@ Definition of success: A user should be able to do the following:
 
    Below is the image results the above task that has been completed successfully.
 
-   ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/71955cdd-a3a4-463f-8b8d-844879d44f4e)
-
+   ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/bfcd971d-82e5-4fb8-9791-c2adf5e38f1d)
+   
 
 Q2. In the same repo, set up 2 pipelines, 
 1.	A Test-Repo-CI pipeline, that runs whenever a PR is raised to main. This pipeline will have only the build stage. The build stage will have 2 tasks:
@@ -37,6 +37,12 @@ Definition of success: A user should be able to do the following:
 1.	A developer, when he/she raises a PR, should automatically trigger a Test-Repo-CI pipeline.
 2.	A developer can manually trigger a Test-Repo-Release Pipeline on ADO.
 3.	Both of them run on the agent created in the laptop.
+
+![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/476ac5c7-1fd6-4a2b-abb9-e3e4e61014e3)
+
+![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/1083f347-fc1d-4a19-b565-48159387a68d)
+
+
 
 The above task is completed successfully
 
