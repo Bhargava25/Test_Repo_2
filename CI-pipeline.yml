@@ -11,13 +11,13 @@ stages:
   jobs:
   - job: Build
     steps:
-    - task: PowerShell@2
+    - task: PowerShell
       inputs:
         targetType: 'inline'
         script: |
           ./init.ps1
           Setup-Env
-    - task: PowerShell@2
+    - task: PowerShell
       inputs:
         targetType: 'inline'
         script: |
