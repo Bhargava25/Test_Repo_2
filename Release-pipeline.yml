@@ -1,7 +1,4 @@
-trigger:
-  branches:
-    include:
-    - main
+trigger: none
 
 pool:
   name: Test-Repo-Agent-Pool
@@ -11,15 +8,26 @@ stages:
   jobs:
   - job: Build
     steps:
-    - task: PowerShell@2
+    - task: PowerShell
       inputs:
         targetType: 'inline'
         script: |
           ./init.ps1
           Setup-Env
-    - task: PowerShell@2
+    - task: PowerShell
       inputs:
         targetType: 'inline'
         script: |
           ./init.ps1
           Build-Proj
+
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    steps:
+    - task: PowerShell
+      inputs:
+        targetType: 'inline'
+        script: |
+          ./init.ps1
+          Release-Build
