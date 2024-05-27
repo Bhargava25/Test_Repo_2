@@ -24,3 +24,11 @@ Definition of success: A user should be able to do the following:
    ![image](https://github.com/Bhargava25/Test_Repo/assets/28252364/71955cdd-a3a4-463f-8b8d-844879d44f4e)
 
 
+Q2. In the same repo, set up 2 pipelines, 
+1.	A Test-Repo-CI pipeline, that runs whenever a PR is raised to main. This pipeline will have only the build stage. The build stage will have 2 tasks:
+a.	A setup task – this will call `./init.ps1` and then call the Setup-Env command
+b.	A build task - this will call `./init.ps1` and then call the Build-Proj command
+2.	A Test-Repo-Release pipeline that needs to be triggered manually. This pipeline will have a build stage and a deploy stage. The build stage will be the same as above. The deploy stage will have one task, which will call `./init.ps1` and then call the Release-Build command. 
+Set up, on ADO, these two pipelines under the pipelines tab so that they can be run as needed. 
+
+
