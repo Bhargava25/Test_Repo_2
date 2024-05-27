@@ -38,3 +38,12 @@ Definition of success: A user should be able to do the following:
 2.	A developer can manually trigger a Test-Repo-Release Pipeline on ADO.
 3.	Both of them run on the agent created in the laptop.
 
+The above task is completed successfully
+
+Q3. (Bonus Question) In the same repository, set up a basic CMake infrastructure. This should be linked to the  Build-Proj command so that, when it is called:
+1.	CMake is invoked, and 
+2.	The top level CMakelists.txt file prints the output “Building Project” instead of the powershell script printing it.
+
+
+
+
